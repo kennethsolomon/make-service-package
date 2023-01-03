@@ -17,8 +17,8 @@
 ### Just type `php artisan make:service FoobarService`
 
 # Inside Controller you can use
-
-- `$FoobarService = FoobarService::getInstance();` # Make sure to import FoobarService
+- Import FoobarService in your controller -> `use App\Services\XeroService;`
+- `$FoobarService = FoobarService::getInstance();`
 - `$FoobarService->foo()` # Asumming that there has foo() method inside your service
 
 or 
