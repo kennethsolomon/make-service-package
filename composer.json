@@ -1,0 +1,24 @@
+{
+    "name": "kennethsolomon/make-service",
+    "description": "Can run 'php artisan make:service Foobar' to create new Services.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "KennethSolomon\\MakeService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kenneth Solomon",
+            "email": "mr.kennethsolomon@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KennethSolomon\\MakeService\\MakeServiceProvider"
+            ]
+        }
+    }
+}
