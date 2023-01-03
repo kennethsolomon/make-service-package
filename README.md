@@ -8,3 +8,10 @@
   'root' => 'app/Services',
   'throw' => false,
   ],
+
+
+### composer require kennethsolomon/make-service
+
+# How to use
+
+### Just type `php artisan make:service FoobarService`
