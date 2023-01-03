@@ -52,6 +52,7 @@ class ' . $this->argument('file_name') . '
         }
         return self::$instance;
     }
+
     public function Foobar()
     {
         // Code Here..
