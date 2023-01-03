@@ -28,7 +28,13 @@ class MakeServiceCommand extends Command
 	 */
 	public function handle()
 	{
-		Storage::disk('services')->put($this->argument('file_name') . '.php', $this->services());
+		$disk = Storage::build([
+			'driver' => 'local',
+			'root' => 'app/Services',
+			'throw' => false,
+		]);
+
+		$disk->put($this->argument('file_name') . '.php', $this->services());
 	}
 
 	public function services()
