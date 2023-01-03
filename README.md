@@ -2,7 +2,7 @@
 
 ### /config/filesystem.php
 
-- Add this inside 'disk' array
+- Add this inside `disk` array
 - 'services' => [
   'driver' => 'local',
   'root' => 'app/Services',
