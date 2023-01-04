@@ -41,7 +41,9 @@ class MakeServiceCommand extends Command
 	{
 		return
 			'<?php
+
 namespace App\Services;
+
 class ' . $this->argument('file_name') . '
 {
     private static $instance = null;
