@@ -1,6 +1,6 @@
 # Installation
 
-### Type `composer require kennethsolomon/make-service`
+### Type `composer require kennethsolomon/make-service --dev`
 
 # How to use
 
